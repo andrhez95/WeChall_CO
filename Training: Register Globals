@@ -1,0 +1,11 @@
+This challenge is a relict of old PHP times, where register globals has been enabled by default, which often lead to security issues.
+Again, your job is to login as admin, and you are given the sourcecode as well as highlighted version.
+
+Here is the link to the vulnerable script.
+I have also setup a test account: test:test
+
+Enjoy!
+
+SOLUTION !!!
+
+Ir a: https://www.wechall.net/es/challenge/training/php/globals/globals.php?username=test&password=test&login[0]=admin
