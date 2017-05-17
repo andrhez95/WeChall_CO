@@ -1,0 +1,25 @@
+I have written another include system for my dynamic webpages, but it seems to be vulnerable to LFI.
+Here is the code:
+
+
+GeSHi`ed PHP código
+<?php
+if (isset($_GET['which']))
+{
+        $which = $_GET['which'];
+        switch ($which)
+        {
+        case 0:
+        case 1:
+        case 2:
+                require_once $which.'.php';
+                break;
+        default:
+                echo GWF_HTML::error('PHP-0817', 'Hacker NoNoNo!', false);
+                break;
+        }
+}
+?>
+
+SOLUTION:
+https://www.wechall.net/es/challenge/php0817/index.php?which=SOLUTION
