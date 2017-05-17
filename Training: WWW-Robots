@@ -1,0 +1,16 @@
+In this little training challenge, you are going to learn about the Robots_exclusion_standard.
+The robots.txt file is used by web crawlers to check if they are allowed to crawl and index your website or only parts of it.
+Sometimes these files reveal the directory structure instead protecting the content from being crawled.
+
+Enjoy!
+
+SOLUCION !!!
+1. Ir a: https://www.wechall.net/robots.txt
+  Muestra el siguiente mensaje: 
+    User-agent: *
+    Disallow: /challenge/training/www/robots/T0PS3CR3T
+    User-agent: Yandex
+    Disallow: *
+2. Ahora ir a: https://www.wechall.net/challenge/training/www/robots/T0PS3CR3T
+
+Y LISTO !!!
