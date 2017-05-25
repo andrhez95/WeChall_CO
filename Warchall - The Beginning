@@ -1,0 +1,19 @@
+You are now becoming a linux superhacker.
+Create an SSH account with the form below.
+Then enter the 6 solutions to level 0-5 seperated by comma.
+Example: bitwarrior,Solution1,Solution2,Solution3,Solution4,Solution5
+Proudly presented by the The Warchall(tm) Staff
+Thanks and shouts to xd-- for idea, motivation and inspiration!
+
+
+SOLUCIÓN !!!
+1. Generar la password para tu usuario ssh.
+2. Loguearse en el servidor ssh.
+    Linux: ssh -p 19198 TU-USUARIO@warchall.net
+    Windows: Putty
+3. cat /home/level/0/README.TXT = "bitwarrior"
+4. cat /home/level/1/blue/pill/hats/gray/solution/is = "LameStartup"
+5. cat /home/level/2/.porb/.solution = "HiddenIsConfig"
+6. cat /home/level/3/.bash_history = "RepeatingHistory"
+7. chmod 755 /home/user/TU-USERNAME/level/4/README.txt = "AndIknowchown"
+8. 
